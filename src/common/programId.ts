@@ -12,28 +12,28 @@ export const UTIL1216 = new PublicKey("CLaimxFqjHzgTJtAGHU47NPhg6qrc5sCnpC4tBLyA
 export const OPEN_BOOK_PROGRAM = new PublicKey("srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX");
 export const SERUM_PROGRAM_ID_V3 = new PublicKey("9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin");
 
-export const AMM_V4 = new PublicKey("675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8");
+export const AMM_V4 = new PublicKey("iMAMSPn4hpfP8mfKbiFx5Yr47iJDRCMKPdfoNhJAK86"); //I
 export const AMM_STABLE = new PublicKey("5quBtoiQqxF9Jv6KYKctB59NT3gtJD2Y65kdnB1Uev3h");
 export const LIQUIDITY_POOL_PROGRAM_ID_V5_MODEL = new PublicKey("CDSr3ssLcRB6XYPJwAfFt18MZvEZp4LjHcvzBVZ45duo");
-export const CLMM_PROGRAM_ID = new PublicKey("CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK");
+export const CLMM_PROGRAM_ID = new PublicKey("iMCLTQbuE95gDbDUVpfoT5z2xUCgfdAVde1M3btFdLJ"); //I
 export const CLMM_LOCK_PROGRAM_ID = new PublicKey("LockrWmn6K5twhz3y9w1dQERbmgSaRkfnTeTKbpofwE");
 export const CLMM_LOCK_AUTH_ID = new PublicKey("kN1kEznaF5Xbd8LYuqtEFcxzWSBk5Fv6ygX6SqEGJVy");
 
 export const Router = new PublicKey("routeUGWgWzqBWFcrCfv8tritsqukccJPu3q5GPP3xS");
-export const FEE_DESTINATION_ID = new PublicKey("7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5");
+export const FEE_DESTINATION_ID = new PublicKey("7E7YKgajr1p8MqGqVYwwCnUPVp4q8feqE7cn7hLayDqr"); //I
 
 export const IDO_PROGRAM_ID_V1 = new PublicKey("6FJon3QE27qgPVggARueB22hLvoh22VzJpXv4rBEoSLF");
 export const IDO_PROGRAM_ID_V2 = new PublicKey("CC12se5To1CdEuw7fDS27B7Geo5jJyL7t5UK2B44NgiH");
 export const IDO_PROGRAM_ID_V3 = new PublicKey("9HzJyW1qZsEiSfMUf6L2jo3CcTKAyBmSyKdwQeYisHrC");
 export const IDO_PROGRAM_ID_V4 = new PublicKey("DropEU8AvevN3UrXWXTMuz3rqnMczQVNjq3kcSdW2SQi");
 
-export const CREATE_CPMM_POOL_PROGRAM = new PublicKey("CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C");
-export const CREATE_CPMM_POOL_AUTH = new PublicKey("GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL");
-export const CREATE_CPMM_POOL_FEE_ACC = new PublicKey("DNXgeM9EiiaAbaWvwjHj9fQQLAX5ZsfHyvmYUNRAdNC8");
+export const CREATE_CPMM_POOL_PROGRAM = new PublicKey("iMCPWUWR9fyNCQ6tpkvb9RaRUYgpn98md9hgRNfG4EC"); //I
+export const CREATE_CPMM_POOL_AUTH = new PublicKey("HmMCe96Yg9XSqs8sVBoicUQfV4uj9mhrSu4edRgX7s6k"); //I
+export const CREATE_CPMM_POOL_FEE_ACC = new PublicKey("7E7YKgajr1p8MqGqVYwwCnUPVp4q8feqE7cn7hLayDqr"); //I
 
-export const DEV_CREATE_CPMM_POOL_PROGRAM = new PublicKey("CPMDWBwJDtYax9qW7AyRuVC19Cc4L4Vcy4n2BHAbHkCW");
-export const DEV_CREATE_CPMM_POOL_AUTH = new PublicKey("7rQ1QFNosMkUCuh7Z7fPbTHvh73b68sQYdirycEzJVuw");
-export const DEV_CREATE_CPMM_POOL_FEE_ACC = new PublicKey("G11FKBRaAkHAKuLCgLM6K6NUc9rTjPAznRCjZifrTQe2");
+export const DEV_CREATE_CPMM_POOL_PROGRAM = new PublicKey("iMCPWUWR9fyNCQ6tpkvb9RaRUYgpn98md9hgRNfG4EC"); //I
+export const DEV_CREATE_CPMM_POOL_AUTH = new PublicKey("HmMCe96Yg9XSqs8sVBoicUQfV4uj9mhrSu4edRgX7s6k"); //I
+export const DEV_CREATE_CPMM_POOL_FEE_ACC = new PublicKey("7E7YKgajr1p8MqGqVYwwCnUPVp4q8feqE7cn7hLayDqr"); //I
 
 export const IDO_ALL_PROGRAM = {
   IDO_PROGRAM_ID_V1,
@@ -77,10 +77,10 @@ export const DEVNET_PROGRAM_ID = {
   FarmV5: new PublicKey("EcLzTrNg9V7qhcdyXDe2qjtPkiGzDM2UbdRaeaadU5r2"),
   FarmV6: new PublicKey("Farm2hJLcqPtPg8M4rR6DMrsRNc5TPm5Cs4bVQrMe2T7"),
 
-  AmmV4: new PublicKey("HWy1jotHpo6UqeQxx49dpYYdQB8wj9Qk9MdxwjLvDHB8"),
+  AmmV4: new PublicKey("iMAMSPn4hpfP8mfKbiFx5Yr47iJDRCMKPdfoNhJAK86"), //I
   AmmStable: new PublicKey("DDg4VmQaJV9ogWce7LpcjBA9bv22wRp5uaTPa5pGjijF"),
 
-  CLMM: new PublicKey("devi51mZmdwUJGU9hjN27vEz64Gps7uUefqxg27EAtH"),
+  CLMM: new PublicKey("iMCLTQbuE95gDbDUVpfoT5z2xUCgfdAVde1M3btFdLJ"), //I
   CLMM_LOCK_PROGRAM_ID: new PublicKey("DLockwT7X7sxtLmGH9g5kmfcjaBtncdbUmi738m5bvQC"),
   CLMM_LOCK_AUTH_ID: new PublicKey("8qmHNvu2Kr2C7U8mJL4Vz1vTDxMhVuXKREwU7TNoaVEo"),
 
@@ -90,5 +90,5 @@ export const DEVNET_PROGRAM_ID = {
   CREATE_CPMM_POOL_AUTH: DEV_CREATE_CPMM_POOL_AUTH,
   CREATE_CPMM_POOL_FEE_ACC: DEV_CREATE_CPMM_POOL_FEE_ACC,
 
-  FEE_DESTINATION_ID: new PublicKey("3XMrhbv989VxAMi3DErLV9eJht1pHppW5LbKxe9fkEFR"),
+  FEE_DESTINATION_ID: new PublicKey("7E7YKgajr1p8MqGqVYwwCnUPVp4q8feqE7cn7hLayDqr"), //I
 };
