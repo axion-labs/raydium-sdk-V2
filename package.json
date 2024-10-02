@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raydium-io/raydium-sdk-V2.git"
+    "url": "git+https://github.com/axion-labs/raydium-sdk-V2.git"
   },
   "publicConfig": {
     "registry": "https://registry.yarnpkg.com",
@@ -81,9 +81,9 @@
     "yarn": "^1.22.19"
   },
   "bugs": {
-    "url": "https://github.com/raydium-io/raydium-sdk-V2/issues"
+    "url": "https://github.com/axion-labs/raydium-sdk-V2/issues"
   },
-  "homepage": "https://github.com/raydium-io/raydium-sdk-V2#readme",
+  "homepage": "https://github.com/axion-labs/raydium-sdk-V2#readme",
   "directories": {
     "test": "test"
   },
